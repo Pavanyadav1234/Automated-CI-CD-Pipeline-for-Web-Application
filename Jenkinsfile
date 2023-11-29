@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('clone'){
             steps{
-                git branch: 'dev', url: 'https://github.com/uday7731/Taxi_Booking_project.git'
+                git branch: 'dev', url: 'https://github.com/uday7731/Automated-CI-CD-Pipeline-for-Web-Application.git'
             }
         }
         stage('build'){
